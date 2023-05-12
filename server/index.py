@@ -13,7 +13,9 @@ app = FastAPI()
 origins = [
     # "http://localhost:3000",
     # "http://localhost:8080",
-    "*"
+    "*",
+    "https://port-0-cloudtype-fastapi-server-16wfin2blhko3ryx.sel4.cloudtype.app/predict",
+    "https://port-0-cloudtype-fastapi-server-16wfin2blhko3ryx.sel4.cloudtype.app"
 ]
 
 app.add_middleware(
